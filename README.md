@@ -1,7 +1,9 @@
 # teste_cogna
 Print com o resultado obtido localmente
 
-Código executado em uma máquina windows com 16GB de memória
+Código executado no sistema ubuntu rodando através do WSL em uma máquina windows com 16GB de memória
+
+A execução se deu em menos de 10 segundos
 
 Ao executar o código menos de 2GB foi utilizado segundo o gerenciador de tarefas
 
@@ -16,3 +18,13 @@ Outra otimização crucial é o aproveitamento dos recursos do cluster. O Spark 
 Além das estratégias de execução distribuída, o código utiliza transformações e ações específicas do Spark, como groupBy, agg, orderBy e format_number, escolhidas por sua eficiência no contexto distribuído. Essas operações são otimizadas para minimizar o movimento de dados entre nós e maximizar a paralelização das operações, garantindo que o processamento seja realizado de forma rápida e eficiente.
 
 Portanto, as otimizações implementadas no código PySpark não apenas melhoram o desempenho geral, mas também garantem que ele seja escalável, robusto e capaz de lidar com grandes volumes de dados de maneira eficiente, fundamental para aplicações que exigem análises complexas e processamento de dados em larga escala.
+
+## Configurações do ambiente
+
+JDK: 
+- openjdk version "1.8.0_412"
+- OpenJDK Runtime Environment (build 1.8.0_412-8u412-ga-1~22.04.1-b08)
+- OpenJDK 64-Bit Server VM (build 25.412-b08, mixed mode)
+
+pyspark==3.5.1
+python 3.10.12

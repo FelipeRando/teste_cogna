@@ -1,6 +1,8 @@
 from pyspark.sql import SparkSession
 import pyspark.sql.functions as F
 
+#Spark foi escolhido devido a sua performance nativa para lidar com grandes quantidades de dados
+
 def main():
     # Criar uma SparkSession
     spark = SparkSession.builder \

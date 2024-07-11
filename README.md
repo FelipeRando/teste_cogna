@@ -1,7 +1,10 @@
 # teste_cogna
 Print com o resultado obtido localmente
+
 Código executado em uma máquina windows com 16GB de memória
+
 Ao executar o código menos de 2GB foi utilizado segundo o gerenciador de tarefas
+
 ![print código cogna](print_código_cogna.png)
 
 O código em PySpark implementa várias estratégias nativamente para otimizar o desempenho ao lidar com grandes volumes de dados. Uma das principais otimizações está na utilização de operações in-memory, onde dados são processados e mantidos na memória distribuída do cluster. Isso reduz significativamente a necessidade de leitura e escrita em disco, aproveitando ao máximo a velocidade de acesso à memória RAM.
